@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cat-dog-classifier
+    env: conda
+    buildCommand: ""
+    startCommand: streamlit run app.py --server.port=$PORT --server.enableCORS=false
+    plan: free

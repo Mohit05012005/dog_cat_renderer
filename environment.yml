@@ -1,0 +1,13 @@
+name: catdog-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - tensorflow
+  - numpy
+  - pillow
+  - pip
+  - pip:
+      - requests
