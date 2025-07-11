@@ -1,6 +1,5 @@
 streamlit
-tensorflow
-numpy
+tensorflow-cpu
 Pillow
+numpy
 requests
-
